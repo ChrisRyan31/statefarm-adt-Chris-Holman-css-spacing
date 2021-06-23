@@ -1,0 +1,43 @@
+section {
+    padding: 50px;
+    margin: 20px;
+    background-color: blue;
+  }
+  
+  p {
+    margin: 0;
+    background: red;
+  }
+
+  #mySection {
+    position: relative;
+  }
+
+  #myParagraph {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  #anotherSection p {
+    float: left;
+    margin-left: 10px;
+  }
+
+  .clear-it {
+    clear: both;
+  }
+
+  .name {
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    color: #51007A;
+    font-size: 100px;
+    margin-left: 250px;
+    margin-top: 200px;
+    font-weight: bold;
+  }
+
+  #nameplate {
+    background-color: black;
+  }
